@@ -1,0 +1,432 @@
+* {
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header.site-header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgb(248, 246, 246);
+}
+
+div.header-title {
+    flex: 1;
+}
+
+p.site-name {
+    font-family: 'Long Cang', cursive;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 10px 20px 0 20px;
+    padding: 0 5px;
+}
+
+p.site-subhead {
+    font-family: 'Long Cang', cursive;
+    font-size: 1.8em;
+    margin: 0 20px 10px 20px;
+    padding: 0 2px 2px 20px;
+    
+}
+nav.navbar {
+    flex: 1.3;
+}
+
+header nav ul {
+    margin: 3em;
+    border-left: 5px solid black;
+}
+
+header li{
+    display: inline;
+    font-size: 1.5em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+header a:link {
+    color: black;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Main home-intro */
+section.home-intro {
+    background-image: url("../images/home-image8.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 125vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.home-intro h1 {
+    font-size: 6.5em;
+    text-shadow: 5px 5px #e27441;
+}
+
+section.home-intro p {
+    font-size: 2.8em;
+    text-shadow: 3px 3px #fc5108;
+}
+
+/* Main home-intro-detail */
+
+.home-intro-text {
+    margin: 3em;
+    padding: 0;
+}
+.home-intro-text h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 3em 1em 3em;
+    padding: 0.5em;
+}
+
+.home-intro-text p {
+    font-size: 1.2em;
+    text-align: left;
+    margin-bottom: 1.5em;
+    padding: 0 1em;
+    line-height: 1.6em;
+    border-left: 5px solid #e27441;
+}
+
+#home-intro-text-style {
+    color: #fc5108;
+    text-transform: uppercase;
+}
+
+.home-intro-detail img {
+    height: 90vh;
+    width: 100%;
+}
+
+/* Section home-intro-more */
+.home-intro-more h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 3em;
+    padding: 0.5em;
+    border-top: 5px solid #e27441;
+    
+}
+.home-intro-food {
+    background-image: url("../images/home-image6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.home-intro-food a {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.home-intro-food a:link {
+    color: #fff;
+    text-shadow: 5px 5px #e27441;
+    text-decoration: none;
+}
+
+.home-intro-food a:visited {
+    color: #fff;
+    text-shadow: 5px 5px #e27441;
+    text-decoration: none;
+}
+
+.home-intro-food p {
+    font-size: 1.8em;
+    margin: 0 3em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px #fc5108;
+}
+
+.home-intro-place {
+    background-image: url("../images/home-image9.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3em auto;
+}
+
+.home-intro-place a {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.home-intro-place a:link {
+    color: #fff;
+    text-shadow: 5px 5px #e27441;
+    text-decoration: none;
+}
+
+.home-intro-place a:visited {
+    color: #fff;
+    text-shadow: 5px 5px #e27441;
+    text-decoration: none;
+}
+
+.home-intro-place p {
+    font-size: 1.8em;
+    margin: 0 3em;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px #fc5108;
+}
+
+/* Footer */
+footer.footbar {
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #c95f2f;
+}
+
+.footbar-left {
+    flex: 1;
+    margin: 1em;
+}
+
+.footbar-left h3 {
+    padding: 1.5em;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Long Cang', cursive;
+}
+
+.footbar-right {
+    flex: 1.3;
+    margin: 1em;
+    border-left: 5px solid #fff;
+}
+
+.footbar-right h3{
+    padding: 0.5em 3em;
+    font-size: 1.8em;
+}
+
+.footbar-right ul {
+    list-style-type: none;
+    padding: 0 5.5em;
+}
+
+.footbar-right li {
+    padding-bottom: 1em;
+    font-size: 1.3em;
+}
+
+.footbar a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footbar a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Main food-intro */
+section.food-intro {
+    background-image: url("../images/food-image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 125vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.food-intro h1 {
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 5px 5px #e27441;
+}
+
+.food-intro-text {
+    margin: 3em;
+    padding: 1em;
+    background-color: rgb(248, 246, 246);
+}
+
+.food-intro-text h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 3em 1em 3em;
+    padding: 0.5em;
+}
+
+.food-intro-text p {
+    font-size: 1.2em;
+    text-align: left;
+    margin: 1.5em;
+
+    padding: 0 1em;
+    line-height: 1.6em;
+    border-left: 5px solid #e27441;
+}
+
+#food-intro-text-style {
+    color: #fc5108;
+    text-transform: uppercase;
+}
+
+/* Main food-row */
+.food-row {
+    display: flex;
+    width: 100%;
+    margin: 5em 0;
+    background-color: rgb(248, 246, 246);
+}
+
+.food-row-image {
+    flex: 1.5;
+    margin: 2em;
+}
+
+.food-row-image img {
+    width: 60vw;
+    height: 85vh;
+} 
+
+.food-row-text {
+    flex: 1;
+    margin: 2em 3em 2em 0;
+    padding: 1em;
+}
+
+.food-row-text h3 {
+    font-size: 2em;
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    margin: 1em 0;
+    border-left: 20px solid #e27441;
+}
+
+.food-row-text p {
+    font-size: 1.2em;
+}
+
+/* Main place-intro */
+section.place-intro {
+    background-image: url("../images/place-image8.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 125vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+section.place-intro h1 {
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 5px 5px #e27441;
+}
+
+.place-intro-text {
+    margin: 3em;
+    padding: 1em;
+    background-color: rgb(248, 246, 246);
+}
+
+.place-intro-text h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 3em 1em 3em;
+    padding: 0.5em;
+}
+
+.place-intro-text p {
+    font-size: 1.2em;
+    text-align: left;
+    margin: 1.5em;
+
+    padding: 0 1em;
+    line-height: 1.6em;
+    border-left: 5px solid #e27441;
+}
+
+#place-intro-text-style {
+    color: #fc5108;
+    text-transform: uppercase;
+}
+
+/* Main place-row */
+.place-row {
+    display: flex;
+    width: 100%;
+    margin: 5em 0;
+    background-color: rgb(248, 246, 246);
+}
+
+.place-row-image {
+    flex: 1.5;
+    margin: 2em;
+}
+
+.place-row-image img {
+    width: 60vw;
+    height: 85vh;
+} 
+
+.place-row-text {
+    flex: 1;
+    margin: 2em 3em 2em 0;
+    padding: 1em;
+}
+
+.place-row-text h3 {
+    font-size: 2em;
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    margin: 1em 0;
+    border-left: 20px solid #e27441;
+}
+
+.place-row-text p {
+    font-size: 1.2em;
+}
