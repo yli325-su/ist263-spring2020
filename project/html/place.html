@@ -2,70 +2,112 @@
 <html lang="en">
     <head>
         <title>Places in Beijing</title>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/28e344e99d.js" crossorigin="anonymous"></script> <!--Font Awesome kit code-->
+        <link href="../css/style.css" rel="stylesheet" />
     </head>
 
     <body>
-        <header>
-            <!--Navbar content-->
-            <nav>
+        <header class="site-header">
+            <div class="header-title">
+                <p class="site-name">BEIJING 北京</p>
+                <p class="site-subhead">The local guide of Beijing</p>
+            </div>
+            <nav class="navbar">
                 <ul>
-                    <li><a href="../html/index.html" target="_blank">Home</a> </li>
+                    <li><a href="../html/index.html">Home</a> </li>
                     <li><a href="../html/food.html" target="_blank">Food</a></li>
-                    <li><a href="../html/place.html">Place</a></li>
+                    <li><a href="../html/place.html" target="_blank">Place</a></li>
                 </ul>
             </nav>
-            <div class="search-group">
-                <input type="text" name="searchbox" placeholder="Search for ...">
-            </div>
         </header>
 
         <main>
-            <h1>Beijing Tourist Attractions</h1>
-            <p>Beijing is a fast developing metropolitan city with a blend of old and modern. You can find two different styles of architectures in the city.</p>
-            <section class="place-row-1">
-                <div>
-                    <img src="../images/place-image1.jpg" alt="Great Wall of China" />
+            <section class="place-intro">
+                <h1>Beijing Tourist Attractions</h1>
+            </section>
+
+            <section class="place-intro-text">
+                <h2>Attractions in <span id="place-intro-text-style">Beijing</span> - One of the most visited cities in the world</h2>
+                <p>Beijing is a fast developing metropolitan city with a blend of old and modern. You can find two different styles of architectures in the city.</p>
+            </section>
+
+            <section class="place-row">
+                <div class="place-row-image">
+                    <img src="../images/place-image1.jpg" alt="Great Wall of China" /> 
+                </div>
+                <div class="place-row-text">
                     <h3>The Great Wall of China</h3>
                     <p>The Great Wall of China is the collective name of a series of fortification systems generally built across the historical northern borders of China to protect and consolidate territories of Chinese states and empires against various nomadic groups of the steppe and their polities. Several walls were being built from as early as the 7th century BC by ancient Chinese states;[2] selective stretches were later joined together by Qin Shi Huang (220–206 BC), the first Emperor of China. Little of the Qin wall remains.[3] Later on, many successive dynasties have built and maintained multiple stretches of border walls. The most well-known sections of the wall were built by the Ming dynasty (1368–1644).</p>
                 </div>
-                <div>
+            </section>
+
+            <section class="place-row">
+                <div class="place-row-image">
                     <img src="../images/place-image2.jpg" alt="Tiananmen Square" />
+                </div>
+                <div class="place-row-text">
                     <h3>Tiananmen Square</h3>
                     <p>The solemn and respectful Tiananmen Square is the largest central city square in the world, which serves not only the city's symbol but also the whole of China. This immense courtyard is surrounded by a variety of significant edifices such as the Tiananmen Tower, Great Hall of the People, Memorial Hall of Chairman Mao, Monument to the People's Heroes and National Museum.</p>
                 </div>
             </section>
-            <section class="place-row-2">
-                <div>
+
+            <section class="place-row">
+                <div class="place-row-image">
                     <img src="../images/place-image4.jpg" alt="Temple of Heaven" />
+                </div>
+                <div class="place-row-text">
                     <h3>The Temple of Heaven</h3>
                     <p>The Temple of Heaven is an imperial complex of religious buildings situated in the southeastern part of central Beijing. The complex was visited by the Emperors of the Ming and Qing dynasties for annual ceremonies of prayer to Heaven for good harvest.</p>
                 </div>
-                <div>
+            </section>
+
+            <section class="place-row">
+                <div class="place-row-image">
                     <img src="../images/place-image5.jpg" alt="Forbidden City" />
+                </div>
+                <div class="place-row-text">
                     <h3>The Forbidden City</h3>
                     <p>The magnificent Forbidden City is the largest and the best-preserved imperial palace complex in the world. It has 9,999 rooms in flourishing period with just a single room short of the number that ancient Chinese belief represents 'Divine Perfection' and surrounded by a moat six meters deep and ten-meter high wall. For five centuries, this palace functioned as the administrative center of the country.</p>
                 </div>
             </section>
-            <section class="place-row-3">
-                <div>
+
+            <section class="place-row">
+                <div class="place-row-image">
                     <img src="../images/place-image3.jpg" alt="Old Summer Palace" />
+                </div>
+                <div class="place-row-text">
                     <h3>The Old Summer Palace</h3>
                     <p>The Old Summer Palace, known in Chinese as Yuanming Yuan and originally called the Imperial Gardens, was a complex of palaces and gardens in present-day Haidian District, Beijing, China. It is 8 kilometres (5.0 mi) northwest of the walls of the former Imperial City section of Beijing. Constructed throughout the 18th and early 19th centuries, the Old Summer Palace was the main imperial residence of Qianlong Emperor of the Qing dynasty and his successors, and where they handled state affairs.</p>
                 </div>
-                <div>
+            </section>
+
+            <section class="place-row">
+                <div class="place-row-image">
                     <img src="../images/place-image11.jpg" alt="Yonghe Temple" />
+                </div>
+                <div class="place-row-text">
                     <h3>The Yonghe Temple</h3>
                     <p>The Yonghe Temple, "Palace of Peace and Harmony", also known as the Yonghe Lamasery, or popularly as the Lama Temple, is a temple and monastery of the Gelug school of Tibetan Buddhism located in Dongcheng District, Beijing, China. The building and artwork of the temple is a combination of Han Chinese and Tibetan styles.</p>
                 </div>
             </section>
-            <section class="place-row-4">
-                <div>
+
+            <section class="place-row">
+                <div class="place-row-image">
                     <img src="../images/place-image9.jpg" alt="Bird's Nest" />
+                </div>
+                <div class="place-row-text">
                     <h3>The Bird's Nest</h3>
                     <p>Situted at the Olympic Green, it has a floor space of 258,000 sq meters. The National Stadium in Beijing is the main stadium for the 2008 Olympic Games. It is often dubbed the "bird's nest" because of its featuring grid formation. The twig-like structure and the bowl-shaped roof are the masterpiece of the project. It is designed by Herzog and DeMeuron. The most unique feature of the structure is its "cushion" system which can fill the spaces within the building's facade to regulate wind, weather, and sunlight. It can accommodate 91,000 visitors and will host the opening and closing ceremonies, the track and field competitions and the football finals during the 2008 Olympic Games.</p>
                 </div>
-                <div>
+            </section>
+
+            <section class="place-row">
+                <div class="place-row-image">
                     <img src="../images/place-image7.jpg" alt="China Media Group Headquarters" />
+                </div>
+                <div class="place-row-text">
                     <h3>China Media Group Office Area</h3>
                     <p>The CMG Office Area is a 234-metre (768 ft), 51-story skyscraper on East Third Ring Road, Guanghua Road in the Beijing Central Business District (CBD). The tower serves as headquarters for China Central Television (CCTV) that was formerly at the old China Central Television Building located at 11 Fuxin Road some 15 km (9.3 mi) to the west. Groundbreaking took place on 1 June 2004 and the building's facade was completed in January 2008. After the construction was delayed by a fire that engulfed the adjacent Television Cultural Center in February 2009, the headquarters was completed in May 2012. The CCTV Headquarters won the 2013 Best Tall Building Worldwide from the Council on Tall Buildings and Urban Habitat.</p>
                 </div>
@@ -74,10 +116,10 @@
 
         <footer class="footbar">
             <div class="footbar-left">
-               <h3>The professional guide of Beijing</h3>
+               <h3>The local guide of Beijing</h3>
             </div>
             <div class="footbar-right">
-                <h4>Menu</h4>
+                <h3>Menu</h3>
                 <ul>
                     <li><a href="../html/index.html" target="_blank">Home</a> </li>
                     <li><a href="../html/food.html" target="_blank">Food</a></li>
