@@ -4,60 +4,77 @@
         <title>Beijing</title>
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/28e344e99d.js" crossorigin="anonymous"></script> <!--Font Awesome kit code-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> <!-- Bootstrap CSS-->
         <link href="../css/style.css" rel="stylesheet" />
     </head>
 
     <body>
-        <header class="site-header">
-            <div class="header-title">
-                <p class="site-name">BEIJING 北京</p>
-                <p class="site-subhead">The local guide of Beijing</p>
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="../html/index.html">Home</a> </li>
-                    <li><a href="../html/food.html" target="_blank">Food</a></li>
-                    <li><a href="../html/place.html" target="_blank">Place</a></li>
-                </ul>
+        <header class="container-fluid">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light row">
+                <a class="navbar-brand col-6" href="../html/index.html">
+                    <img src="../images/logo.png" alt="website logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span>
+                        <i class="fas fa-grip-lines"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse col-6" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../html/index.html">Home </a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/food.html" target="_blank">Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/place.html" target="_blank">Place</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
         <main>
-            <section class="home-intro">
+            <section class="container-fluid home-title">
                 <h1>Beijing China</h1>
                 <p>39.9042° N, 116.4074° E</p>
             </section>
-            <section class="home-intro-detail">
+            <section class=" container-fluid home-intro-detail">
                 <div class="home-intro-history">
                     <div class="home-intro-text">
-                        <h2><span id="home-intro-text-style">Beijing</span> - One of the oldest cities in the world</h2>
+                        <h2><span class="home-intro-text-style">Beijing</span> - One of the oldest cities in the world</h2>
                         <p>Beijing is one of the four ancient cities of China (together with Xi'an, Luoyang, Nanjing), the best preserved, and famous around the world. The city is also known as a cradle of humanity. As early as 700,000 years ago, Peking Man lived in Zhoukoudian area of this city.</p>
                         <p>Beijing City was established over 3,000 years ago and was called Jin City in the Western Zhou Dynasty (11th century BC - 771 BC). Ever since Emperor Qin united China in 221 BC, Beijing has played an important role in north China. It was the capital city in the Liao (916-1125), Jin (1115-1234), Yuan (1271-1368), Ming (1368-1644) and Qing (1644-1911) dynasties. During these 800 years, 34 emperors lived and ruled here. The world renowned Forbidden City was built during this period.></p>
                         <p>At the end of the Qing Dynasty, World War I broke out. Beijing became the focus of the war, which disrupted the society. Many residences of royal families were robbed and burned down. After that, the whole country was reduced to the status of semi-colonial and semi-feudal society. It wasn't until October 1st 1949 that the People's Republic of China was founded. Beijing is known as the capital city of the prosperous new country which has flared into importance in Asia.</p>
                     </div>
-                    <img src="../images/home-image5.jpg" alt="Forbidden City" />
+                    <img class="img-fluid" src="../images/home-image5.jpg" alt="Forbidden City" />
                 </div> 
                 
                 <div class="home-intro-modern">
                     <div class="home-intro-text">
-                        <h2><span id="home-intro-text-style">Beijing</span> - The world famous modern city</h2>
+                        <h2><span class="home-intro-text-style">Beijing</span> - The world famous modern city</h2>
                         <p>Beijing is one of the world's fastest rising cosmopolitan cities and a world's leading center for culture, diplomacy and politics, business and economy, education, language, and science and technology.</p>
                     </div>
-                    <img src="../images/home-image1.jpg" alt="Night in Beijing" />
+                    <img class="img-fluid" src="../images/home-image1.jpg" alt="Night in Beijing" />
                 </div>
 
                 <div class="home-intro-culture">
                     <div class="home-intro-text">
-                        <h2><span id="home-intro-text-style">Beijing</span> - The culture hub of China</h2>
+                        <h2><span class="home-intro-text-style">Beijing</span> - The culture hub of China</h2>
                         <p>Beijing has a unique collection of architecture, arts, cuisine, and other cultural facets because of its long history and deep culture roots.</p>
                     </div>
-                    <img src="../images/home-image2.jpg" alt="Forbidden City inside" />
+                    <img class="img-fluid" src="../images/home-image2.jpg" alt="Forbidden City inside" />
                 </div>
             </section>
 
-            <section class="home-intro-more">
-                <h2>More to Explore in <span id="home-intro-text-style">Beijing</span>:</h2>
+            <section class="container-fluid home-intro-more">
+                <hr />
+                <div class="home-intro-more-title">
+                    <h2>More to Explore in <span class="home-intro-text-style">Beijing</span>:</h2>
+                </div>
                 <div class="home-intro-food">
                     <a href="../html/food.html" target="_blank">Beijing Cuisines</a>
                     <p>Beijing cuisine is a cooking style in Beijing, also known as Mandarin cuisine. It has been influenced by culinary traditions from all over China.</p>
@@ -69,19 +86,22 @@
             </section>
         </main>
 
-        <footer class="footbar">
-            <div class="footbar-left">
+        <footer class="footbar container-fluid">
+            <div class="footbar-title col-12">
                <h3>The local guide of Beijing</h3>
             </div>
-            <div class="footbar-right">
-                <h3>Menu</h3>
-                <ul>
-                    <li><a href="../html/index.html">Home</a> </li>
-                    <li><a href="../html/food.html" target="_blank">Food</a></li>
-                    <li><a href="../html/place.html" target="_blank">Place</a></li>
-                </ul>
+            <div class="footbar-contact col-12">
+                <h3>Contact</h3>
+                <p>Yiwei Li</p>
+                <p>Syracuse, NY</p>
+                <p>yiweili83@gmail.com</p>
+                <p>&copy; 2020 Yiwei Li All rights reserved.</p>
             </div>
         </footer>
-        
+
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>      
     </body>
 </html>
